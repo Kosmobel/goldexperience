@@ -490,9 +490,6 @@ iframe {
 	#test {
 		grid-area: test;
 	}
-    .gpu-bottom {
-        grid-template-columns: repeat(2, 1fr);
-    }
     .finale-img {
         grid-column: span 2;
     }
@@ -507,5 +504,11 @@ iframe {
     }
     .cpu-intr {
 	    grid-template-columns: repeat(1, 1fr);
+    }
+    .gpu-bottom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #gpu-img1, #gpu-img2 {
+        width: 95%!important;
     }
 }
