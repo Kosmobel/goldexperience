@@ -505,4 +505,7 @@ iframe {
     .games {
         grid-template-columns: repeat(auto-fit, minmax(992px, 1fr));
     }
+    .cpu-intr {
+	    grid-template-columns: repeat(1, 1fr);
+    }
 }
